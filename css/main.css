@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bungee+Spice&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.blockONE {
+    width: 28%;
+    height: 100%;
+}
+
+.blockTWO {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.blockFREE {
+    width: 30%;
+    height: 100%;
+}
+
+.PhotoONE {
+    width: 100%;
+    height: 100%;
+}
+
+.PhotoTWO {
+    width: 100%;
+    height: 100%;
+}
+
+.HP {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 40px;
+    font-family: Anton;
+    color: hotpink;
+}
+
+
+@media screen and (max-width: 425px) {
+    .blockONE {
+        width: 28%;
+        height: 34%;
+    }
+
+    .blockFREE {
+        width: 30%;
+        height: 34%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .blockONE {
+        width: 28%;
+        height: 34%;
+    }
+
+    .blockFREE {
+        width: 30%;
+        height: 34%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+
+    .HP {
+        font-size: 35px;
+    }
+
+    .blockTWO {
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .blockONE {
+        width: 28%;
+        height: 30%;
+    }
+
+    .blockFREE {
+        width: 30%;
+        height: 30%;
+    }
+
+    .HP {
+        font-size: 30px;
+    }
+
+    .blockTWO {
+        height: 90%;
+    }
+
+}
